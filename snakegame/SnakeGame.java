@@ -5,9 +5,9 @@ import javax.swing.*;
 public class SnakeGame extends JFrame {
 
      SnakeGame(){
-        super("SnakeGame");  // super must be the first statenebnt inside the constructorf
-        add(new Board());                    // Board class called
-        pack();                                // refrsh the frame
+        super("SnakeGame"); 
+        add(new Board());                   
+        pack();                           
        
                               
         setLocationRelativeTo(null);
